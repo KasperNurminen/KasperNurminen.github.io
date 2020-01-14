@@ -1,0 +1,1 @@
+{:output-dir "resources/public/js/compiled/release", :closure-defines {"goog.DEBUG" false}, :externs ["closure-js/externs"], :optimizations :advanced, :output-to "resources/public/js/compiled/app.js", :asset-path "js/compiled/out", :output-wrapper true, :libs ["closure-js/libs"], :pseudo-names true, :main clojure-cv.core, :pretty-print true}

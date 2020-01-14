@@ -1,0 +1,341 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0; }
+
+h1 {
+  font-size: 2rem;
+  color: #4199ee; }
+
+#app {
+  width: 100vw;
+  overflow: hidden; }
+
+html {
+  height: 100%;
+  overflow-x: hidden; }
+
+p {
+  font-size: 1.25rem; }
+
+li {
+  font-size: 1.25rem;
+  margin-top: 0.75rem; }
+
+section {
+  padding: 5rem 1rem; }
+  section:nth-of-type(even) {
+    background-color: #f9f9f9; }
+  section#portfolio {
+    padding: 5rem 0rem; }
+    section#portfolio > h1 {
+      margin-left: 1rem; }
+
+.header {
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 0;
+  height: 70px;
+  justify-content: space-between;
+  height: fit-content;
+  transition: all 0.5s cubic-bezier(0.55, 0.09, 0.68, 0.53) !important; }
+
+.pos-absolute {
+  position: absolute; }
+
+.header-expanded {
+  align-items: flex-start;
+  flex-direction: column; }
+
+.black {
+  background-color: #181818 !important;
+  color: white !important;
+  transition: all 0.2s linear !important; }
+
+.black * {
+  color: white !important; }
+
+.menu-select {
+  position: fixed !important;
+  right: 0;
+  top: 15px; }
+
+.menu-icons-expanded {
+  margin-bottom: 1rem;
+  display: flex !important;
+  flex-direction: column;
+  margin-left: 1rem;
+  justify-content: flex-start; }
+
+.main-title {
+  margin-top: 4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 2rem; }
+  .main-title > h1 {
+    color: white;
+    font-size: 3rem; }
+
+#main-right {
+  z-index: 10; }
+
+.slanted-bar {
+  overflow-x: hidden;
+  height: 200px;
+  width: 120vw;
+  background-color: white;
+  position: absolute;
+  top: -100px;
+  transform: rotate(-2deg); }
+
+.main-image {
+  overflow: hidden;
+  background: url("../assets/people-kasper-large@2x.jpg") no-repeat 20% fixed;
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 115vh;
+  width: 100vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+#main {
+  z-index: 10;
+  position: relative;
+  padding: 5rem 10px;
+  margin: 0rem 2rem; }
+
+#main-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none; }
+
+#face {
+  padding: 0rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center; }
+
+h2, h3 {
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 1.5rem; }
+
+.avatar {
+  z-index: 10;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px; }
+
+.title {
+  margin-top: 1rem;
+  text-align: center; }
+
+.education {
+  font-size: 1rem;
+  margin: 0.3rem; }
+
+.uni {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6); }
+
+.ml-2 {
+  margin-left: 2rem; }
+
+.contact-icon {
+  margin: -6px; }
+
+.contact-icon:hover {
+  padding: 0;
+  transform: scale(1.5); }
+
+.menu-icons {
+  display: none; }
+
+#job-experience {
+  width: 100vw; }
+
+.top-button {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  transition: all linear 0.5s !important; }
+
+.hidden {
+  transform: scale(0.001); }
+
+.paragraph {
+  font-size: 1.25rem; }
+
+.star-view {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0 1rem; }
+  .star-view:hover {
+    background-color: #d8d8d8; }
+    .star-view:hover .stars {
+      transform: scale(1.1);
+      transition: all 0.1s cubic-bezier(0.55, 0.09, 0.68, 0.53) !important; }
+
+.stars {
+  display: flex;
+  justify-content: flex-end; }
+
+.marker {
+  background-color: #4199ee;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  margin-right: 1px;
+  z-index: 10; }
+  .marker.big {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px; }
+    .marker.big:hover {
+      transition: all 0.1s cubic-bezier(0.55, 0.09, 0.68, 0.53) !important;
+      transform: scale(1.2); }
+
+.marker-outline {
+  border: 2px solid #4199ee;
+  height: 15px;
+  width: 15px;
+  border-radius: 15px;
+  margin-right: 1px;
+  z-index: 10; }
+  .marker-outline.big {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px; }
+
+.achievements-timeline {
+  border: 0.5px solid black;
+  position: relative;
+  width: 90%;
+  margin-left: 1rem;
+  margin-top: 4rem;
+  height: 0px; }
+  .achievements-timeline:before {
+    content: "|";
+    position: absolute;
+    bottom: -8px;
+    left: -2px; }
+  .achievements-timeline:after {
+    content: "|";
+    position: absolute;
+    bottom: -8px;
+    right: -2px; }
+
+.tooltip {
+  position: absolute;
+  color: white;
+  width: 22px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 0.5rem;
+  height: 22px;
+  background-color: #4199ee; }
+
+.desktop-w-20 {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%; }
+
+.desktop-w-70 {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%; }
+
+.portfolio-image {
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+  text-align: center;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  margin-bottom: 2rem; }
+  .portfolio-image > h1 {
+    transform: translateZ(100px);
+    font-size: 1.2rem; }
+  .portfolio-image h1 {
+    color: black;
+    text-shadow: 0px -1px 0px rgba(255, 255, 255, 0.95), 0px 1px 0px rgba(255, 255, 255, 0.95), 1px 0px 0px rgba(255, 255, 255, 0.95), -1px 0px 0px rgba(255, 255, 255, 0.95); }
+
+.enlarged {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 30vh;
+  z-index: 10; }
+
+.cover {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white; }
+
+@media only screen and (min-width: 1200px) {
+  #main {
+    display: flex; }
+  #face {
+    padding: 3rem; }
+  .menu-icons {
+    display: block; }
+  #main-left {
+    display: block; }
+  .menu-select {
+    display: none !important; }
+  .desktop-w-20 {
+    width: 20%;
+    min-width: 20%; }
+  .desktop-w-70 {
+    width: 70%;
+    max-width: 70%;
+    min-width: 70%; }
+  .portfolio-image:not(.detail-page) {
+    width: 47%;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    height: 450px; }
+  .portfolio-image.detail-page {
+    height: 750px; }
+  section {
+    padding: 5rem 4rem; }
+    section#portfolio > h1 {
+      margin-left: 4rem !important; }
+  .enlarged {
+    height: 100vh !important; } }
+
+/*# sourceMappingURL=style.css.map */
