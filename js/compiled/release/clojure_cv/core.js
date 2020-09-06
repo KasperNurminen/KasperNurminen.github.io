@@ -31,104 +31,104 @@ clojure_cv.core.mount_root = (function clojure_cv$core$mount_root(){
 
 return reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [clojure_cv.views.core.main_panel,clojure_cv.core.page], null),document.getElementById("app"));
 });
-var action__17560__auto___17710 = (function (params__17561__auto__){
-if(cljs.core.map_QMARK_(params__17561__auto__)){
-var map__17705 = params__17561__auto__;
-var map__17705__$1 = ((((!((map__17705 == null)))?(((((map__17705.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17705.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17705):map__17705);
+var action__9629__auto___9759 = (function (params__9630__auto__){
+if(cljs.core.map_QMARK_(params__9630__auto__)){
+var map__9754 = params__9630__auto__;
+var map__9754__$1 = ((((!((map__9754 == null)))?(((((map__9754.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__9754.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__9754):map__9754);
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.core.main_page);
 } else {
-if(cljs.core.vector_QMARK_(params__17561__auto__)){
-var vec__17707 = params__17561__auto__;
+if(cljs.core.vector_QMARK_(params__9630__auto__)){
+var vec__9756 = params__9630__auto__;
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.core.main_page);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/",action__17560__auto___17710);
+secretary.core.add_route_BANG_("/",action__9629__auto___9759);
 
-var action__17560__auto___17716 = (function (params__17561__auto__){
-if(cljs.core.map_QMARK_(params__17561__auto__)){
-var map__17711 = params__17561__auto__;
-var map__17711__$1 = ((((!((map__17711 == null)))?(((((map__17711.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17711.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17711):map__17711);
+var action__9629__auto___9765 = (function (params__9630__auto__){
+if(cljs.core.map_QMARK_(params__9630__auto__)){
+var map__9760 = params__9630__auto__;
+var map__9760__$1 = ((((!((map__9760 == null)))?(((((map__9760.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__9760.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__9760):map__9760);
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.ilmomasiina);
 } else {
-if(cljs.core.vector_QMARK_(params__17561__auto__)){
-var vec__17713 = params__17561__auto__;
+if(cljs.core.vector_QMARK_(params__9630__auto__)){
+var vec__9762 = params__9630__auto__;
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.ilmomasiina);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/portfolio/ilmomasiina",action__17560__auto___17716);
+secretary.core.add_route_BANG_("/portfolio/ilmomasiina",action__9629__auto___9765);
 
-var action__17560__auto___17722 = (function (params__17561__auto__){
-if(cljs.core.map_QMARK_(params__17561__auto__)){
-var map__17717 = params__17561__auto__;
-var map__17717__$1 = ((((!((map__17717 == null)))?(((((map__17717.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17717.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17717):map__17717);
+var action__9629__auto___9771 = (function (params__9630__auto__){
+if(cljs.core.map_QMARK_(params__9630__auto__)){
+var map__9766 = params__9630__auto__;
+var map__9766__$1 = ((((!((map__9766 == null)))?(((((map__9766.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__9766.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__9766):map__9766);
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.kaspernurminen);
 } else {
-if(cljs.core.vector_QMARK_(params__17561__auto__)){
-var vec__17719 = params__17561__auto__;
+if(cljs.core.vector_QMARK_(params__9630__auto__)){
+var vec__9768 = params__9630__auto__;
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.kaspernurminen);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/portfolio/kaspernurminen",action__17560__auto___17722);
+secretary.core.add_route_BANG_("/portfolio/kaspernurminen",action__9629__auto___9771);
 
-var action__17560__auto___17728 = (function (params__17561__auto__){
-if(cljs.core.map_QMARK_(params__17561__auto__)){
-var map__17723 = params__17561__auto__;
-var map__17723__$1 = ((((!((map__17723 == null)))?(((((map__17723.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17723.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17723):map__17723);
+var action__9629__auto___9777 = (function (params__9630__auto__){
+if(cljs.core.map_QMARK_(params__9630__auto__)){
+var map__9772 = params__9630__auto__;
+var map__9772__$1 = ((((!((map__9772 == null)))?(((((map__9772.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__9772.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__9772):map__9772);
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.oloscreen);
 } else {
-if(cljs.core.vector_QMARK_(params__17561__auto__)){
-var vec__17725 = params__17561__auto__;
+if(cljs.core.vector_QMARK_(params__9630__auto__)){
+var vec__9774 = params__9630__auto__;
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.oloscreen);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/portfolio/oloscreen",action__17560__auto___17728);
+secretary.core.add_route_BANG_("/portfolio/oloscreen",action__9629__auto___9777);
 
-var action__17560__auto___17734 = (function (params__17561__auto__){
-if(cljs.core.map_QMARK_(params__17561__auto__)){
-var map__17729 = params__17561__auto__;
-var map__17729__$1 = ((((!((map__17729 == null)))?(((((map__17729.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__17729.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__17729):map__17729);
+var action__9629__auto___9783 = (function (params__9630__auto__){
+if(cljs.core.map_QMARK_(params__9630__auto__)){
+var map__9778 = params__9630__auto__;
+var map__9778__$1 = ((((!((map__9778 == null)))?(((((map__9778.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__9778.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__9778):map__9778);
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.infodisplay);
 } else {
-if(cljs.core.vector_QMARK_(params__17561__auto__)){
-var vec__17731 = params__17561__auto__;
+if(cljs.core.vector_QMARK_(params__9630__auto__)){
+var vec__9780 = params__9630__auto__;
 return cljs.core.reset_BANG_(clojure_cv.core.selected_page,clojure_cv.views.portfolio.infodisplay);
 } else {
 return null;
 }
 }
 });
-secretary.core.add_route_BANG_("/portfolio/infodisplay",action__17560__auto___17734);
+secretary.core.add_route_BANG_("/portfolio/infodisplay",action__9629__auto___9783);
 
 clojure_cv.core.hook_browser_navigation_BANG_ = (function clojure_cv$core$hook_browser_navigation_BANG_(){
-var G__17735 = (new goog.History());
-var G__17736_17739 = G__17735;
-var G__17737_17740 = goog.history.EventType.NAVIGATE;
-var G__17738_17741 = ((function (G__17736_17739,G__17737_17740,G__17735){
+var G__9784 = (new goog.History());
+var G__9785_9788 = G__9784;
+var G__9786_9789 = goog.history.EventType.NAVIGATE;
+var G__9787_9790 = ((function (G__9785_9788,G__9786_9789,G__9784){
 return (function (event){
 return secretary.core.dispatch_BANG_(event.token);
-});})(G__17736_17739,G__17737_17740,G__17735))
+});})(G__9785_9788,G__9786_9789,G__9784))
 ;
-goog.events.listen(G__17736_17739,G__17737_17740,G__17738_17741);
+goog.events.listen(G__9785_9788,G__9786_9789,G__9787_9790);
 
-G__17735.setEnabled(true);
+G__9784.setEnabled(true);
 
-return G__17735;
+return G__9784;
 });
 clojure_cv.core.init = (function clojure_cv$core$init(){
-var G__17742_17743 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$clojure_DASH_cv$events_SLASH_initialize_DASH_db], null);
-(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__17742_17743) : re_frame.core.dispatch_sync.call(null,G__17742_17743));
+var G__9791_9792 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.cst$kw$clojure_DASH_cv$events_SLASH_initialize_DASH_db], null);
+(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__9791_9792) : re_frame.core.dispatch_sync.call(null,G__9791_9792));
 
 accountant.core.configure_navigation_BANG_(new cljs.core.PersistentArrayMap(null, 2, [cljs.core.cst$kw$nav_DASH_handler,(function (path){
 return secretary.core.dispatch_BANG_(path);
